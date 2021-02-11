@@ -25,6 +25,7 @@ class JavaSqliteUtils {
         PRIMITIVES_TO_WRAPPERS.put(long.class, Long.class);
         PRIMITIVES_TO_WRAPPERS.put(short.class, Short.class);
         PRIMITIVES_TO_WRAPPERS.put(void.class, Void.class);
+        //commnted
     }
 
     static <T> T newInstance(Constructor<T> constructor, Object[] arguments) throws Exception {
